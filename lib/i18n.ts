@@ -75,6 +75,18 @@ export const translations = {
       detailedDescription: 'Detailed Description'
     },
 
+    // Footer
+    footer: {
+      description: 'Project & Operations Manager specialized in Agile methodologies and digital workflow optimization.',
+      quickLinks: 'Quick Links',
+      about: 'About Me',
+      projects: 'Projects',
+      contact: 'Contact',
+      connect: 'Connect',
+      downloadCV: 'Download CV',
+      allRightsReserved: 'All rights reserved.'
+    },
+
     // Contact Page
     contact: {
       title: 'Contact',
@@ -315,6 +327,18 @@ export const translations = {
       challenges: 'Desafíos Enfrentados',
       solutions: 'Soluciones Implementadas',
       detailedDescription: 'Descripción Detallada'
+    },
+
+    // Footer
+    footer: {
+      description: 'Project & Operations Manager especializado en metodologías Agile y optimización de flujos de trabajo digitales.',
+      quickLinks: 'Enlaces Rápidos',
+      about: 'Sobre Mí',
+      projects: 'Proyectos',
+      contact: 'Contacto',
+      connect: 'Conecta',
+      downloadCV: 'Descargar CV',
+      allRightsReserved: 'Todos los derechos reservados.'
     },
 
     // Contact Page
