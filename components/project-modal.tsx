@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { X, Calendar, Target, CheckCircle, Tool, TrendingUp, Users } from 'lucide-react'
+import { X, Calendar, Target, CheckCircle, Wrench, TrendingUp, Users } from 'lucide-react'
 
 interface Project {
   id: number
@@ -105,7 +105,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           {/* Tools */}
           <div className="mb-8">
             <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4 flex items-center">
-              <Tool className="h-5 w-5 text-blue-500 mr-2" />
+              <Wrench className="h-5 w-5 text-blue-500 mr-2" />
               Herramientas y Tecnologías
             </h4>
             <div className="flex flex-wrap gap-2">
