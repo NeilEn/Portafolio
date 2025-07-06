@@ -9,9 +9,9 @@ import { getTranslation } from '@/lib/i18n'
 
 export default function AboutPage() {
   const { language } = useLanguage()
-  const experiences = getTranslation(language, 'about.experiences')
+  const experiences = getTranslation(language, 'contact.about.experiences')
 
-  const education = getTranslation(language, 'about.educationList')
+  const education = getTranslation(language, 'contact.about.educationList')
 
   const skills = language === 'es'
     ? [
@@ -71,7 +71,7 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-              {getTranslation(language, 'about.title').split(' ').map((word: string, index: number) => 
+              {getTranslation(language, 'contact.about.title').split(' ').map((word: string, index: number) => 
                 index === 1 ? (
                   <span key={index} className="gradient-text"> {word} </span>
                 ) : (
@@ -80,7 +80,7 @@ export default function AboutPage() {
               )}
             </h1>
             <p className="text-xl text-secondary-600 dark:text-secondary-400 max-w-3xl mx-auto leading-relaxed">
-              {getTranslation(language, 'about.subtitle')}
+              {getTranslation(language, 'contact.about.subtitle')}
             </p>
           </motion.div>
 
@@ -112,17 +112,17 @@ export default function AboutPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-primary-600" />
-                    <span className="text-secondary-600 dark:text-secondary-400">{getTranslation(language, 'about.location')}</span>
+                    <span className="text-secondary-600 dark:text-secondary-400">{getTranslation(language, 'contact.about.location')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Calendar className="h-5 w-5 text-primary-600" />
-                    <span className="text-secondary-600 dark:text-secondary-400">{getTranslation(language, 'about.experienceYears')}</span>
+                    <span className="text-secondary-600 dark:text-secondary-400">{getTranslation(language, 'contact.about.experienceYears')}</span>
                   </div>
                 </div>
                 
                 <div className="bg-secondary-50 dark:bg-secondary-800 p-4 rounded-lg">
                   <p className="text-secondary-700 dark:text-secondary-300 leading-relaxed">
-                    {getTranslation(language, 'about.subtitle')}
+                    {getTranslation(language, 'contact.about.subtitle')}
                   </p>
                   
                   {/* Download CV Button */}
@@ -133,7 +133,7 @@ export default function AboutPage() {
                       className="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-200"
                     >
                       <Download className="h-4 w-4 mr-2" />
-                      {getTranslation(language, 'about.downloadCV')}
+                      {getTranslation(language, 'contact.about.downloadCV')}
                     </a>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              {getTranslation(language, 'about.experience').split(' ').map((word: string, index: number) => 
+              {getTranslation(language, 'contact.about.experience').split(' ').map((word: string, index: number) => 
                 index === 1 ? (
                   <span key={index} className="gradient-text"> {word} </span>
                 ) : (
@@ -163,7 +163,7 @@ export default function AboutPage() {
               )}
             </h2>
             <p className="text-lg text-secondary-600 dark:text-secondary-400 max-w-2xl mx-auto">
-              {getTranslation(language, 'about.experienceSubtitle')}
+              {getTranslation(language, 'contact.about.experienceSubtitle')}
             </p>
           </motion.div>
 
@@ -218,7 +218,7 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              {getTranslation(language, 'about.education').split(' ').map((word: string, index: number) => 
+              {getTranslation(language, 'contact.about.education').split(' ').map((word: string, index: number) => 
                 index === 1 ? (
                   <span key={index} className="gradient-text"> {word} </span>
                 ) : (
@@ -227,7 +227,7 @@ export default function AboutPage() {
               )}
             </h2>
             <p className="text-lg text-secondary-600 dark:text-secondary-400 max-w-2xl mx-auto">
-              {getTranslation(language, 'about.educationSubtitle')}
+              {getTranslation(language, 'contact.about.educationSubtitle')}
             </p>
           </motion.div>
 
@@ -253,7 +253,7 @@ export default function AboutPage() {
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-secondary-500 dark:text-secondary-500">{edu.period}</span>
                       <span className={`text-sm px-2 py-1 rounded-full ${
-                        edu.status === getTranslation(language, 'about.completed') 
+                        edu.status === getTranslation(language, 'contact.about.completed') 
                           ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
                           : 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200'
                       }`}>
@@ -279,7 +279,7 @@ export default function AboutPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-secondary-900 dark:text-white">
-              {getTranslation(language, 'about.skills').split(' ').map((word: string, index: number) => 
+              {getTranslation(language, 'contact.about.skills').split(' ').map((word: string, index: number) => 
                 index === 1 ? (
                   <span key={index} className="gradient-text"> {word} </span>
                 ) : (
@@ -288,7 +288,7 @@ export default function AboutPage() {
               )}
             </h2>
             <p className="text-lg text-secondary-600 dark:text-secondary-400 max-w-2xl mx-auto">
-              {getTranslation(language, 'about.skillsSubtitle')}
+              {getTranslation(language, 'contact.about.skillsSubtitle')}
             </p>
           </motion.div>
 
