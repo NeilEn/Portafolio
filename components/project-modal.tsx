@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion'
 import { X, Calendar, Target, CheckCircle, Wrench, TrendingUp, Users, ExternalLink } from 'lucide-react'
+import { useLanguage } from '@/contexts/LanguageContext'
+import { getTranslation } from '@/lib/i18n'
 
 interface Project {
   id: number
@@ -24,6 +26,8 @@ interface ProjectModalProps {
 }
 
 export function ProjectModal({ project, onClose }: ProjectModalProps) {
+  const { language } = useLanguage()
+  
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -83,7 +87,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
                 className="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-200"
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
-                Visitar Sitio Web
+                {getTranslation(language, 'projectModal.visitWebsite')}
               </a>
             )}
           </div>
@@ -102,7 +106,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           <div className="mb-8">
             <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4 flex items-center">
               <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-              Logros Principales
+              {getTranslation(language, 'projectModal.achievements')}
             </h4>
             <ul className="space-y-2">
               {project.achievements.map((achievement, index) => (
@@ -118,7 +122,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           <div className="mb-8">
             <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4 flex items-center">
               <Wrench className="h-5 w-5 text-blue-500 mr-2" />
-              Herramientas y Tecnologías
+              {getTranslation(language, 'projectModal.tools')}
             </h4>
             <div className="flex flex-wrap gap-2">
               {project.tools.map((tool, index) => (
@@ -137,7 +141,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             <div>
               <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4 flex items-center">
                 <TrendingUp className="h-5 w-5 text-orange-500 mr-2" />
-                Desafíos
+                {getTranslation(language, 'projectModal.challenges')}
               </h4>
               <ul className="space-y-2">
                 {project.challenges.map((challenge, index) => (
@@ -152,7 +156,7 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             <div>
               <h4 className="text-lg font-semibold text-secondary-900 dark:text-white mb-4 flex items-center">
                 <Users className="h-5 w-5 text-green-500 mr-2" />
-                Soluciones Implementadas
+                {getTranslation(language, 'projectModal.solutions')}
               </h4>
               <ul className="space-y-2">
                 {project.solutions.map((solution, index) => (

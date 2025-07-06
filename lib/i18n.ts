@@ -75,6 +75,15 @@ export const translations = {
       detailedDescription: 'Detailed Description'
     },
 
+    // Project Modal
+    projectModal: {
+      visitWebsite: 'Visit Website',
+      achievements: 'Key Achievements',
+      tools: 'Tools & Technologies',
+      challenges: 'Challenges Faced',
+      solutions: 'Implemented Solutions'
+    },
+
     // Footer
     footer: {
       description: 'Project & Operations Manager specialized in Agile methodologies and digital workflow optimization.',
@@ -465,6 +474,15 @@ export const translations = {
       challenges: 'Desafíos Enfrentados',
       solutions: 'Soluciones Implementadas',
       detailedDescription: 'Descripción Detallada'
+    },
+
+    // Project Modal
+    projectModal: {
+      visitWebsite: 'Visitar Sitio Web',
+      achievements: 'Logros Principales',
+      tools: 'Herramientas y Tecnologías',
+      challenges: 'Desafíos',
+      solutions: 'Soluciones Implementadas'
     },
 
     // Footer
