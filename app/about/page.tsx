@@ -168,7 +168,7 @@ export default function AboutPage() {
           </motion.div>
 
           <div className="space-y-8">
-            {experiences.map((exp, index) => (
+            {experiences.map((exp: any, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -232,7 +232,7 @@ export default function AboutPage() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {education.map((edu, index) => (
+            {education.map((edu: any, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
