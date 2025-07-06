@@ -114,7 +114,7 @@ export const translations = {
       },
       about: {
         title: 'About Me',
-        subtitle: 'Resilient and passionate about constant learning, I enjoy hiking, sports, and video games. My professional journey as a Project & Operations Manager has allowed me to lead digital, logistics, and marketing initiatives, managing budgets up to S/200K and cross-functional teams of 5+. Expert in Agile (Scrum, Kanban) & Waterfall, stakeholder engagement, scope definition, and risk mitigation. Delivered responsive web platforms, integrated payment gateway, and optimized logistics (-27% costs).',
+        subtitle: "I'm Neil, a Project & Operations Manager—and, above all, a curious and empathetic person. I'm passionate about helping teams grow and finding solutions together, even when things get tough. I don't believe in perfect projects, but I do believe in honest work, clear communication, and the ability to adapt. I've had the chance to lead digital, logistics, and marketing projects, and while I'm skilled in Agile methods and tools like Jira or Notion, what I value most is listening and learning from others. I like to think the best results come when we mix technical skills with a human touch: celebrating wins, learning from mistakes, and never losing our sense of humor. If there's something that defines me, it's resilience and a genuine desire to keep growing—both professionally and personally. If you're looking for someone who can manage projects but also cares about people and team spirit, I'm here.",
         experience: 'Professional Experience',
         experienceSubtitle: 'My professional journey in project management and operations',
         education: 'Education & Certifications',
@@ -355,7 +355,7 @@ export const translations = {
       },
       about: {
         title: 'Sobre Mí',
-        subtitle: 'Resiliente y apasionado por el aprendizaje constante, disfruto de las caminatas, el deporte y los videojuegos. Mi trayectoria profesional como Project & Operations Manager me ha permitido liderar iniciativas digitales, logísticas y de marketing, gestionar presupuestos de hasta S/200K y equipos multidisciplinarios de 5+. Experto en Agile (Scrum, Kanban) y Waterfall, gestión de stakeholders, definición de alcance y mitigación de riesgos. He entregado plataformas web responsivas, integrado pasarelas de pago y optimizado logística (-27% costos).',
+        subtitle: 'Soy Neil, Project & Operations Manager, pero antes que nada, una persona curiosa y empática. Me apasiona ayudar a los equipos a crecer y a encontrar soluciones juntos, incluso cuando el camino se complica. No creo en los proyectos perfectos, pero sí en el trabajo honesto, en la comunicación clara y en la capacidad de adaptarnos. He tenido la suerte de liderar proyectos digitales, logísticos y de marketing, y aunque domino metodologías como Agile y herramientas como Jira o Notion, lo que más valoro es escuchar y aprender de los demás. Me gusta pensar que los mejores resultados llegan cuando combinamos lo técnico con lo humano: celebrar los logros, aprender de los errores y nunca perder el sentido del humor. Si algo me define es la resiliencia y las ganas de seguir creciendo, tanto profesional como personalmente. Si buscas a alguien que sepa gestionar proyectos, pero también que se preocupe por las personas y el ambiente de trabajo, aquí estoy.',
         experience: 'Experiencia Profesional',
         experienceSubtitle: 'Mi camino profesional en gestión de proyectos y operaciones',
         education: 'Educación & Certificaciones',
