@@ -144,7 +144,7 @@ export default function HomePage() {
               { number: '98%', label: getTranslation(language, 'metrics.delivery.label'), description: getTranslation(language, 'metrics.delivery.description'), color: 'from-galaxy-500 to-galaxy-600' },
               { number: '27%', label: getTranslation(language, 'metrics.costs.label'), description: getTranslation(language, 'metrics.costs.description'), color: 'from-primary-500 to-primary-600' },
               { number: '40%', label: getTranslation(language, 'metrics.errors.label'), description: getTranslation(language, 'metrics.errors.description'), color: 'from-cosmic-500 to-cosmic-600' },
-              { number: '15%', label: getTranslation(language, 'metrics.b2b.label'), description: getTranslation(language, 'metrics.b2b.description'), color: 'from-secondary-600 to-secondary-700' },
+              { number: '15%', label: getTranslation(language, 'metrics.b2b.label'), description: getTranslation(language, 'metrics.b2b.description'), color: 'from-galaxy-500 to-galaxy-600' },
             ].map((metric, index) => (
               <motion.div
                 key={index}

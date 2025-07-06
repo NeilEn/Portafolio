@@ -114,13 +114,13 @@ export const translations = {
       },
       about: {
         title: 'About Me',
-        subtitle: 'Project & Operations Manager with over 3 years of experience, specialized in Agile methodologies and optimization of digital workflows for luxury tourism and events companies.',
+        subtitle: 'Resilient and passionate about constant learning, I enjoy hiking, sports, and video games. My professional journey as a Project & Operations Manager has allowed me to lead teams, optimize processes, and negotiate key agreements, applying agile methodologies and digital tools to achieve outstanding results. I am fascinated by the world of software, which is why I am specializing in software development. I am motivated by new challenges, exploring technologies, and collaborating to create innovative solutions. I believe that curiosity, perseverance, and adaptability are key to advancing in this field, and I strive every day to be a better professional and a better person.',
         experience: 'Professional Experience',
-        experienceSubtitle: 'My professional trajectory in project management and operations',
+        experienceSubtitle: 'My professional journey in project management and operations',
         education: 'Education & Certifications',
-        educationSubtitle: 'My academic training and professional certifications',
+        educationSubtitle: 'My academic background and professional certifications',
         skills: 'Technical Skills',
-        skillsSubtitle: 'Technologies, methodologies and tools I use in my daily work'
+        skillsSubtitle: 'Technologies, methodologies, and tools I use in my daily work'
       }
     },
 
@@ -282,9 +282,9 @@ export const translations = {
       },
       about: {
         title: 'Sobre Mí',
-        subtitle: 'Project & Operations Manager con más de 3 años de experiencia, especializado en metodologías Agile y optimización de flujos de trabajo digitales para empresas de turismo de lujo y eventos.',
+        subtitle: 'Soy una persona resiliente y apasionada por el aprendizaje constante. Disfruto de las caminatas, el deporte y los videojuegos, y siempre busco aprender de cada experiencia para crecer y mejorar. Mi trayectoria profesional como Project & Operations Manager me ha permitido liderar equipos, optimizar procesos y negociar acuerdos clave, aplicando metodologías ágiles y herramientas digitales para lograr resultados sobresalientes. El mundo del software me fascina, por eso he decidido especializarme en desarrollo de software. Me motiva enfrentar nuevos retos, explorar tecnologías y colaborar con otros para crear soluciones innovadoras. Creo firmemente que la curiosidad, la perseverancia y la capacidad de adaptación son claves para avanzar en este campo, y me esfuerzo cada día por ser mejor profesional y mejor persona.',
         experience: 'Experiencia Profesional',
-        experienceSubtitle: 'Mi trayectoria profesional en gestión de proyectos y operaciones',
+        experienceSubtitle: 'Mi camino profesional en gestión de proyectos y operaciones',
         education: 'Educación & Certificaciones',
         educationSubtitle: 'Mi formación académica y certificaciones profesionales',
         skills: 'Habilidades Técnicas',

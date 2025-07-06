@@ -103,8 +103,12 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Avatar Placeholder */}
               <div className="flex flex-col items-center lg:items-start">
-                <div className="w-48 h-48 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center mb-6">
-                  <span className="text-6xl font-bold text-white">NE</span>
+                <div className="w-48 h-48 rounded-full overflow-hidden flex items-center justify-center mb-6 border-4 border-primary-400 shadow-lg">
+                  <img
+                    src="/neil.jpg"
+                    alt="Neil Endicott"
+                    className="object-cover w-full h-full"
+                  />
                 </div>
                 <div className="text-center lg:text-left">
                   <h2 className="text-2xl font-bold mb-2">Neil Endicott</h2>
@@ -127,12 +131,9 @@ export default function AboutPage() {
                 
                 <div className="bg-secondary-50 dark:bg-secondary-800 p-4 rounded-lg">
                   <p className="text-secondary-700 dark:text-secondary-300 leading-relaxed">
-                    Impact-driven Project & Operations Manager con más de 3 años de experiencia, 
-                    experto en aplicar metodologías Agile (Scrum, Kanban) y Waterfall. 
-                    Especializado en gestión de stakeholders, gestión de riesgos, control de alcance y supervisión de presupuestos. 
-                    Historial comprobado optimizando flujos de trabajo digitales con Trello, Asana, Notion y Google Sheets 
-                    para reducir costos operativos en 27%. Comunicador y negociador fuerte, entregando resultados de alta calidad 
-                    en entornos remotos y de ritmo rápido.
+                    Soy una persona resiliente y apasionada por el aprendizaje constante. Disfruto de las caminatas, el deporte y los videojuegos, y siempre busco aprender de cada experiencia para crecer y mejorar. Mi trayectoria profesional como Project & Operations Manager me ha permitido liderar equipos, optimizar procesos y negociar acuerdos clave, aplicando metodologías ágiles y herramientas digitales para lograr resultados sobresalientes.
+                    <br /><br />
+                    El mundo del software me fascina, por eso he decidido especializarme en desarrollo de software. Me motiva enfrentar nuevos retos, explorar tecnologías y colaborar con otros para crear soluciones innovadoras. Creo firmemente que la curiosidad, la perseverancia y la capacidad de adaptación son claves para avanzar en este campo, y me esfuerzo cada día por ser mejor profesional y mejor persona.
                   </p>
                   
                   {/* Download CV Button */}
