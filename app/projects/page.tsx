@@ -23,29 +23,11 @@ export default function ProjectsPage() {
       detailedDescription: getTranslation(language, 'projectsData.website.detailedDescription'),
       image: '/images/inca-website.jpg',
       website: 'https://incaexplorers.com/',
-      achievements: [
-        'Reducción del 36% en tiempo de carga del sitio web',
-        'Incremento del 17% en tráfico orgánico',
-        'Gestión de 300+ ciclos de sprint con Jira',
-        'Cumplimiento de SLA y métricas de satisfacción del cliente'
-      ],
-      tools: ['Agile (Scrum)', 'Jira', 'Google Analytics', 'Data Studio', 'Power BI', 'WBS'],
-      metrics: [
-        { label: 'Reducción Tiempo Carga', value: '36%' },
-        { label: 'Incremento Tráfico', value: '17%' },
-        { label: 'Ciclos Sprint', value: '300+' },
-        { label: 'Presupuesto Gestionado', value: 'S/200K' }
-      ],
-      challenges: [
-        'Optimización de rendimiento web en entorno turístico complejo',
-        'Coordinación de equipos cross-funcionales de desarrolladores y diseñadores',
-        'Mantenimiento de métricas de satisfacción del cliente'
-      ],
-      solutions: [
-        'Implementación de metodologías Agile con sprints bimensuales',
-        'Sistema de dashboards en tiempo real con Jira',
-        'Framework de gestión de riesgos con KPI dashboards'
-      ]
+      achievements: getTranslation(language, 'projectsData.website.achievements'),
+      tools: getTranslation(language, 'projectsData.website.tools'),
+      metrics: getTranslation(language, 'projectsData.website.metrics'),
+      challenges: getTranslation(language, 'projectsData.website.challenges'),
+      solutions: getTranslation(language, 'projectsData.website.solutions'),
     },
     {
       id: 2,
@@ -55,29 +37,11 @@ export default function ProjectsPage() {
       description: getTranslation(language, 'projectsData.logistics.description'),
       detailedDescription: getTranslation(language, 'projectsData.logistics.detailedDescription'),
       image: '/images/logistics-optimization.jpg',
-      achievements: [
-        'Reducción del 27% en costos operativos',
-        'Mapeo completo de procesos logísticos',
-        'Talleres de stakeholders implementados',
-        'Varianza de costos mantenida dentro de ±5%'
-      ],
-      tools: ['Process Mapping', 'Stakeholder Workshops', 'Budget Management', 'Vendor Contracts', 'KPI Dashboards'],
-      metrics: [
-        { label: 'Reducción Costos', value: '27%' },
-        { label: 'Varianza Costos', value: '±5%' },
-        { label: 'Procesos Mapeados', value: '15+' },
-        { label: 'Talleres Realizados', value: '8' }
-      ],
-      challenges: [
-        'Optimización de procesos logísticos complejos en turismo',
-        'Gestión de múltiples proveedores y contratos',
-        'Mantenimiento de estándares de calidad con reducción de costos'
-      ],
-      solutions: [
-        'Mapeo detallado de procesos con workshops de stakeholders',
-        'Sistema de gestión de presupuestos y contratos de proveedores',
-        'Framework de gestión de riesgos con dashboards en tiempo real'
-      ]
+      achievements: getTranslation(language, 'projectsData.logistics.achievements'),
+      tools: getTranslation(language, 'projectsData.logistics.tools'),
+      metrics: getTranslation(language, 'projectsData.logistics.metrics'),
+      challenges: getTranslation(language, 'projectsData.logistics.challenges'),
+      solutions: getTranslation(language, 'projectsData.logistics.solutions'),
     },
     {
       id: 3,
@@ -87,29 +51,11 @@ export default function ProjectsPage() {
       description: getTranslation(language, 'projectsData.marketing.description'),
       detailedDescription: getTranslation(language, 'projectsData.marketing.detailedDescription'),
       image: '/images/marketing-analytics.jpg',
-      achievements: [
-        'Implementación de A/B testing para optimización de conversiones',
-        'Análisis de ROI para campañas de marketing',
-        'Investigación de mercado para nuevos destinos',
-        'Dashboards de KPI automatizados'
-      ],
-      tools: ['Google Analytics', 'Data Studio', 'Power BI', 'Excel', 'A/B Testing', 'ROI Analysis'],
-      metrics: [
-        { label: 'Campañas Analizadas', value: '25+' },
-        { label: 'Tests A/B Realizados', value: '12' },
-        { label: 'Destinos Investigados', value: '8' },
-        { label: 'Dashboards Creados', value: '6' }
-      ],
-      challenges: [
-        'Análisis de datos complejos de múltiples fuentes',
-        'Optimización de campañas de marketing digital',
-        'Alineación de stakeholders con insights de datos'
-      ],
-      solutions: [
-        'Implementación de herramientas de análisis avanzado',
-        'Sistema de reporting automatizado con dashboards',
-        'Proceso de A/B testing estructurado'
-      ]
+      achievements: getTranslation(language, 'projectsData.marketing.achievements'),
+      tools: getTranslation(language, 'projectsData.marketing.tools'),
+      metrics: getTranslation(language, 'projectsData.marketing.metrics'),
+      challenges: getTranslation(language, 'projectsData.marketing.challenges'),
+      solutions: getTranslation(language, 'projectsData.marketing.solutions'),
     },
     {
       id: 4,
@@ -119,29 +65,11 @@ export default function ProjectsPage() {
       description: getTranslation(language, 'projectsData.catering.description'),
       detailedDescription: getTranslation(language, 'projectsData.catering.detailedDescription'),
       image: '/images/pamu-catering.jpg',
-      achievements: [
-        '95% de feedback positivo en eventos',
-        'Reducción del 35% en cuellos de botella',
-        '20% menos errores en procesos',
-        '5 SOPs desarrollados e implementados'
-      ],
-      tools: ['Kanban', 'Trello', 'Asana', 'Pricing Models', 'Rate Grids', 'SOPs'],
-      metrics: [
-        { label: 'Eventos Gestionados', value: '50+' },
-        { label: 'Asistentes por Evento', value: 'Hasta 60' },
-        { label: 'Feedback Positivo', value: '95%' },
-        { label: 'SOPs Implementados', value: '5' }
-      ],
-      challenges: [
-        'Gestión de eventos con múltiples proveedores',
-        'Coordinación de equipos en tiempo real',
-        'Mantenimiento de estándares de calidad en catering de lujo'
-      ],
-      solutions: [
-        'Implementación de flujos de trabajo Kanban visuales',
-        'Desarrollo de modelos de precios y cuadrículas de tarifas',
-        'Sistema de checklists digitales para control de calidad'
-      ]
+      achievements: getTranslation(language, 'projectsData.catering.achievements'),
+      tools: getTranslation(language, 'projectsData.catering.tools'),
+      metrics: getTranslation(language, 'projectsData.catering.metrics'),
+      challenges: getTranslation(language, 'projectsData.catering.challenges'),
+      solutions: getTranslation(language, 'projectsData.catering.solutions'),
     },
     {
       id: 5,
@@ -151,29 +79,11 @@ export default function ProjectsPage() {
       description: getTranslation(language, 'projectsData.biohuertos.description'),
       detailedDescription: getTranslation(language, 'projectsData.biohuertos.detailedDescription'),
       image: '/images/bio-huertos-pacchanta.jpg',
-      achievements: [
-        'Incremento del 60% en ingesta de productos frescos',
-        '5 familias entrenadas en cultivo sostenible',
-        'Mejora en ingresos familiares',
-        'Sostenibilidad a largo plazo asegurada'
-      ],
-      tools: ['Sustainable Cultivation', 'Community Training', 'Organic Farming', 'Project Planning'],
-      metrics: [
-        { label: 'Familias Entrenadas', value: '5' },
-        { label: 'Incremento Productos Frescos', value: '60%' },
-        { label: 'Duración del Proyecto', value: '12 meses' },
-        { label: 'Área Cultivada', value: '1,500 m²' }
-      ],
-      challenges: [
-        'Coordinación con líderes comunitarios de Pacchanta',
-        'Implementación de técnicas de cultivo sostenible',
-        'Asegurar mejora en ingresos familiares'
-      ],
-      solutions: [
-        'Programa de entrenamiento estructurado para familias',
-        'Implementación de técnicas de cultivo orgánico',
-        'Sistema de seguimiento y evaluación de resultados'
-      ]
+      achievements: getTranslation(language, 'projectsData.biohuertos.achievements'),
+      tools: getTranslation(language, 'projectsData.biohuertos.tools'),
+      metrics: getTranslation(language, 'projectsData.biohuertos.metrics'),
+      challenges: getTranslation(language, 'projectsData.biohuertos.challenges'),
+      solutions: getTranslation(language, 'projectsData.biohuertos.solutions'),
     },
     {
       id: 6,
@@ -184,30 +94,12 @@ export default function ProjectsPage() {
       detailedDescription: getTranslation(language, 'projectsData.portfolio.detailedDescription'),
       image: '/images/portfolio-web.jpg',
       website: 'https://neil-endicott-portfolio.vercel.app/',
-      achievements: [
-        'Diseño responsivo para todos los dispositivos',
-        'Animaciones fluidas con Framer Motion',
-        'Optimización de rendimiento y SEO',
-        'Paleta de colores galáctica personalizada'
-      ],
-      tools: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'React', 'Git'],
-      metrics: [
-        { label: 'Páginas Desarrolladas', value: '4' },
-        { label: 'Componentes Creados', value: '8+' },
-        { label: 'Tiempo de Desarrollo', value: '2 semanas' },
-        { label: 'Lighthouse Score', value: '95+' }
-      ],
-      challenges: [
-        'Crear una experiencia visual única y memorable',
-        'Implementar animaciones suaves sin afectar rendimiento',
-        'Diseñar una paleta de colores coherente y profesional'
-      ],
-      solutions: [
-        'Uso de Framer Motion para animaciones optimizadas',
-        'Implementación de diseño system con Tailwind CSS',
-        'Paleta de colores galáctica con gradientes morados'
-      ]
-    }
+      achievements: getTranslation(language, 'projectsData.portfolio.achievements'),
+      tools: getTranslation(language, 'projectsData.portfolio.tools'),
+      metrics: getTranslation(language, 'projectsData.portfolio.metrics'),
+      challenges: getTranslation(language, 'projectsData.portfolio.challenges'),
+      solutions: getTranslation(language, 'projectsData.portfolio.solutions'),
+    },
   ]
 
   const getProjectIcon = (projectId: number) => {

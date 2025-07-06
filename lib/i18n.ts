@@ -217,42 +217,180 @@ export const translations = {
         period: 'Jul 2021 – Present',
         websiteUrl: 'https://incaexplorers.com',
         description: 'Orchestrated the complete redesign and launch of Inca Explorers responsive website, defining the WBS, managing bi-weekly sprints, and optimizing performance to improve user experience.',
-        detailedDescription: 'As Project Manager, I led a cross-functional team of developers and designers to completely transform Inca Explorers digital presence. The project included complete website restructuring, implementation of Agile methodologies with bi-weekly sprints, and performance optimization to improve user experience and conversions.'
+        detailedDescription: 'As Project Manager, I led a cross-functional team of developers and designers to completely transform Inca Explorers digital presence. The project included complete website restructuring, implementation of Agile methodologies with bi-weekly sprints, and performance optimization to improve user experience and conversions.',
+        achievements: [
+          'Reduced website load time by 36%',
+          'Increased organic traffic by 17%',
+          'Managed 300+ sprint cycles with Jira',
+          'Met SLA and customer satisfaction metrics'
+        ],
+        tools: ['Agile (Scrum)', 'Jira', 'Google Analytics', 'Data Studio', 'Power BI', 'WBS'],
+        metrics: [
+          { label: 'Load Time Reduction', value: '36%' },
+          { label: 'Traffic Increase', value: '17%' },
+          { label: 'Sprint Cycles', value: '300+' },
+          { label: 'Managed Budget', value: 'S/200K' }
+        ],
+        challenges: [
+          'Web performance optimization in a complex tourism environment',
+          'Coordination of cross-functional teams of developers and designers',
+          'Maintaining customer satisfaction metrics'
+        ],
+        solutions: [
+          'Implementation of Agile methodologies with bi-weekly sprints',
+          'Real-time dashboards system with Jira',
+          'Risk management framework with KPI dashboards'
+        ]
       },
       logistics: {
         title: 'Logistics Optimization and Cost Reduction',
         company: 'Inca Explorers',
         period: 'Jul 2021 – Present',
         description: 'Led complete logistics restructuring with process mapping and stakeholder workshops, achieving significant reduction in operational costs and improving overall efficiency.',
-        detailedDescription: 'I implemented a comprehensive logistics optimization strategy that included detailed mapping of all operational processes, stakeholder workshops to identify bottlenecks, and implementation of budget management systems. The project resulted in significant cost reduction while maintaining luxury tourism quality standards.'
+        detailedDescription: 'I implemented a comprehensive logistics optimization strategy that included detailed mapping of all operational processes, stakeholder workshops to identify bottlenecks, and implementation of budget management systems. The project resulted in significant cost reduction while maintaining luxury tourism quality standards.',
+        achievements: [
+          '27% reduction in operational costs',
+          'Complete mapping of logistics processes',
+          'Stakeholder workshops implemented',
+          'Cost variance maintained within ±5%'
+        ],
+        tools: ['Process Mapping', 'Stakeholder Workshops', 'Budget Management', 'Vendor Contracts', 'KPI Dashboards'],
+        metrics: [
+          { label: 'Cost Reduction', value: '27%' },
+          { label: 'Cost Variance', value: '±5%' },
+          { label: 'Processes Mapped', value: '15+' },
+          { label: 'Workshops Held', value: '8' }
+        ],
+        challenges: [
+          'Optimization of complex logistics processes in tourism',
+          'Management of multiple vendors and contracts',
+          'Maintaining quality standards with cost reduction'
+        ],
+        solutions: [
+          'Detailed process mapping with stakeholder workshops',
+          'Budget and vendor contract management system',
+          'Risk management framework with real-time dashboards'
+        ]
       },
       marketing: {
         title: 'Marketing Analysis and Digital Strategy',
         company: 'Inca Explorers',
         period: 'Jul 2021 – Present',
         description: 'Leveraged marketing analytics (market research, A/B testing, ROI analysis) and data tools to drive insights and stakeholder alignment.',
-        detailedDescription: 'I developed and implemented a comprehensive marketing analysis strategy that included market research for new destinations, A/B testing for conversion optimization, and ROI analysis for all marketing campaigns. I used advanced data analysis tools to generate actionable insights and improve stakeholder alignment.'
+        detailedDescription: 'I developed and implemented a comprehensive marketing analysis strategy that included market research for new destinations, A/B testing for conversion optimization, and ROI analysis for all marketing campaigns. I used advanced data analysis tools to generate actionable insights and improve stakeholder alignment.',
+        achievements: [
+          'A/B testing implementation for conversion optimization',
+          'ROI analysis for marketing campaigns',
+          'Market research for new destinations',
+          'Automated KPI dashboards'
+        ],
+        tools: ['Google Analytics', 'Data Studio', 'Power BI', 'Excel', 'A/B Testing', 'ROI Analysis'],
+        metrics: [
+          { label: 'Campaigns Analyzed', value: '25+' },
+          { label: 'A/B Tests Conducted', value: '12' },
+          { label: 'Destinations Researched', value: '8' },
+          { label: 'Dashboards Created', value: '6' }
+        ],
+        challenges: [
+          'Complex data analysis from multiple sources',
+          'Optimization of digital marketing campaigns',
+          'Stakeholder alignment with data insights'
+        ],
+        solutions: [
+          'Implementation of advanced analytics tools',
+          'Automated reporting system with dashboards',
+          'Structured A/B testing process'
+        ]
       },
       catering: {
         title: 'High-End Event Management',
         company: 'Pamu Catering',
         period: 'Jan 2022 – Dec 2024',
         description: 'Executed high-end catering events for 60+ attendees, developing pricing models and rate grids, achieving 95% positive feedback.',
-        detailedDescription: 'As Founder and Project Manager, I designed and executed high-end catering events for up to 60 attendees. I developed sophisticated pricing models and rate grids, implemented Kanban workflows to optimize operations, and created 5 SOPs that significantly reduced errors and bottlenecks.'
+        detailedDescription: 'As Founder and Project Manager, I designed and executed high-end catering events for up to 60 attendees. I developed sophisticated pricing models and rate grids, implemented Kanban workflows to optimize operations, and created 5 SOPs that significantly reduced errors and bottlenecks.',
+        achievements: [
+          '95% positive feedback in events',
+          '35% reduction in bottlenecks',
+          '20% fewer process errors',
+          '5 SOPs developed and implemented'
+        ],
+        tools: ['Kanban', 'Trello', 'Asana', 'Pricing Models', 'Rate Grids', 'SOPs'],
+        metrics: [
+          { label: 'Events Managed', value: '50+' },
+          { label: 'Attendees per Event', value: 'Up to 60' },
+          { label: 'Positive Feedback', value: '95%' },
+          { label: 'SOPs Implemented', value: '5' }
+        ],
+        challenges: [
+          'Event management with multiple vendors',
+          'Real-time team coordination',
+          'Maintaining quality standards in luxury catering'
+        ],
+        solutions: [
+          'Implementation of visual Kanban workflows',
+          'Development of pricing models and rate grids',
+          'Digital checklists system for quality control'
+        ]
       },
       biohuertos: {
         title: 'Community Bio Gardens - Pacchanta',
         company: 'Pacchanta Biohuertos Initiative',
         period: 'Jan 2023 – Dec 2023',
         description: 'Designed and implemented organic bio gardens; trained 5 families in sustainable cultivation, increasing fresh produce intake by 60% and improving household income.',
-        detailedDescription: 'I led a comprehensive community project in Pacchanta, Cusco, designing and implementing sustainable organic bio gardens. The project included training 5 families in sustainable cultivation techniques, implementing efficient irrigation systems, and creating a local business model that significantly improved household income and food security.'
+        detailedDescription: 'I led a comprehensive community project in Pacchanta, Cusco, designing and implementing sustainable organic bio gardens. The project included training 5 families in sustainable cultivation techniques, implementing efficient irrigation systems, and creating a local business model that significantly improved household income and food security.',
+        achievements: [
+          '60% increase in fresh produce intake',
+          '5 families trained in sustainable cultivation',
+          'Improved household income',
+          'Long-term sustainability ensured'
+        ],
+        tools: ['Sustainable Cultivation', 'Community Training', 'Organic Farming', 'Project Planning'],
+        metrics: [
+          { label: 'Families Trained', value: '5' },
+          { label: 'Fresh Produce Increase', value: '60%' },
+          { label: 'Project Duration', value: '12 months' },
+          { label: 'Cultivated Area', value: '1,500 m²' }
+        ],
+        challenges: [
+          'Coordination with Pacchanta community leaders',
+          'Implementation of sustainable farming techniques',
+          'Ensuring improved household income'
+        ],
+        solutions: [
+          'Structured training program for families',
+          'Implementation of organic farming techniques',
+          'Monitoring and evaluation system for results'
+        ]
       },
       portfolio: {
         title: 'Professional Web Portfolio - Frontend Development',
         company: 'Neil Endicott Portfolio',
         period: 'Nov 2024 – Present',
         description: 'Developed my personal web portfolio using Next.js, TypeScript, and Tailwind CSS, implementing responsive design and interactive animations to showcase my professional experience.',
-        detailedDescription: 'As a frontend developer and project manager, I completely designed and developed my professional web portfolio using modern technologies like Next.js, TypeScript, and Tailwind CSS. The project includes responsive design for all devices, fluid animations with Framer Motion, performance and SEO optimization, and a personalized galactic color palette that reflects my professional style.'
+        detailedDescription: 'As a frontend developer and project manager, I completely designed and developed my professional web portfolio using modern technologies like Next.js, TypeScript, and Tailwind CSS. The project includes responsive design for all devices, fluid animations with Framer Motion, performance and SEO optimization, and a personalized galactic color palette that reflects my professional style.',
+        achievements: [
+          'Responsive design for all devices',
+          'Fluid animations with Framer Motion',
+          'Performance and SEO optimization',
+          'Personalized galactic color palette'
+        ],
+        tools: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'React', 'Git'],
+        metrics: [
+          { label: 'Pages Developed', value: '4' },
+          { label: 'Components Created', value: '8+' },
+          { label: 'Development Time', value: '2 weeks' },
+          { label: 'Lighthouse Score', value: '95+' }
+        ],
+        challenges: [
+          'Showcasing both technical and creative skills',
+          'Ensuring optimal performance and accessibility',
+          'Maintaining a unique and professional style'
+        ],
+        solutions: [
+          'Use of modern frameworks and libraries',
+          'Performance and SEO best practices',
+          'Custom design and color palette'
+        ]
       }
     }
   },
@@ -470,42 +608,180 @@ export const translations = {
         company: 'Inca Explorers',
         period: 'Jul 2021 – Presente',
         description: 'Orquesté el rediseño completo y lanzamiento del website responsive de Inca Explorers, definiendo el WBS, gestionando sprints bimensuales y optimizando el rendimiento para mejorar la experiencia del usuario.',
-        detailedDescription: 'Como Project Manager, lideré un equipo cross-funcional de desarrolladores y diseñadores para transformar completamente la presencia digital de Inca Explorers. El proyecto incluyó la reestructuración completa del sitio web, implementación de metodologías Agile con sprints bimensuales, y optimización de rendimiento para mejorar la experiencia del usuario y las conversiones.'
+        detailedDescription: 'Como Project Manager, lideré un equipo cross-funcional de desarrolladores y diseñadores para transformar completamente la presencia digital de Inca Explorers. El proyecto incluyó la reestructuración completa del sitio web, implementación de metodologías Agile con sprints bimensuales, y optimización de rendimiento para mejorar la experiencia del usuario y las conversiones.',
+        achievements: [
+          'Reduced website load time by 36%',
+          'Increased organic traffic by 17%',
+          'Managed 300+ sprint cycles with Jira',
+          'Met SLA and customer satisfaction metrics'
+        ],
+        tools: ['Agile (Scrum)', 'Jira', 'Google Analytics', 'Data Studio', 'Power BI', 'WBS'],
+        metrics: [
+          { label: 'Load Time Reduction', value: '36%' },
+          { label: 'Traffic Increase', value: '17%' },
+          { label: 'Sprint Cycles', value: '300+' },
+          { label: 'Managed Budget', value: 'S/200K' }
+        ],
+        challenges: [
+          'Web performance optimization in a complex tourism environment',
+          'Coordination of cross-functional teams of developers and designers',
+          'Maintaining customer satisfaction metrics'
+        ],
+        solutions: [
+          'Implementation of Agile methodologies with bi-weekly sprints',
+          'Real-time dashboards system with Jira',
+          'Risk management framework with KPI dashboards'
+        ]
       },
       logistics: {
         title: 'Optimización Logística y Reducción de Costos',
         company: 'Inca Explorers',
         period: 'Jul 2021 – Presente',
         description: 'Lideré la reestructuración logística completa con mapeo de procesos y talleres de stakeholders, logrando una reducción significativa en costos operativos y mejorando la eficiencia general.',
-        detailedDescription: 'Implementé una estrategia integral de optimización logística que incluyó el mapeo detallado de todos los procesos operativos, talleres de stakeholders para identificar cuellos de botella, y la implementación de sistemas de gestión de presupuestos. El proyecto resultó en una reducción significativa de costos mientras se mantuvieron los estándares de calidad en turismo de lujo.'
+        detailedDescription: 'Implementé una estrategia integral de optimización logística que incluyó el mapeo detallado de todos los procesos operativos, talleres de stakeholders para identificar cuellos de botella, y la implementación de sistemas de gestión de presupuestos. El proyecto resultó en una reducción significativa de costos mientras se mantuvieron los estándares de calidad en turismo de lujo.',
+        achievements: [
+          '27% reduction in operational costs',
+          'Complete mapping of logistics processes',
+          'Stakeholder workshops implemented',
+          'Cost variance maintained within ±5%'
+        ],
+        tools: ['Process Mapping', 'Stakeholder Workshops', 'Budget Management', 'Vendor Contracts', 'KPI Dashboards'],
+        metrics: [
+          { label: 'Cost Reduction', value: '27%' },
+          { label: 'Cost Variance', value: '±5%' },
+          { label: 'Processes Mapped', value: '15+' },
+          { label: 'Workshops Held', value: '8' }
+        ],
+        challenges: [
+          'Optimization of complex logistics processes in tourism',
+          'Management of multiple vendors and contracts',
+          'Maintaining quality standards with cost reduction'
+        ],
+        solutions: [
+          'Detailed process mapping with stakeholder workshops',
+          'Budget and vendor contract management system',
+          'Risk management framework with real-time dashboards'
+        ]
       },
       marketing: {
         title: 'Análisis de Marketing y Estrategia Digital',
         company: 'Inca Explorers',
         period: 'Jul 2021 – Presente',
-        description: 'Aproveché análisis de marketing (investigación de mercado, A/B testing, análisis de ROI) y herramientas de datos para impulsar insights y alineación de stakeholders.',
-        detailedDescription: 'Desarrollé e implementé una estrategia de análisis de marketing integral que incluyó investigación de mercado para nuevos destinos, A/B testing para optimización de conversiones, y análisis de ROI para todas las campañas de marketing. Utilicé herramientas avanzadas de análisis de datos para generar insights accionables y mejorar la alineación de stakeholders.'
+        description: 'Aproveché análisis de marketing (investigación de mercado, A/B testing, ROI analysis) y herramientas de datos para impulsar insights y alineación de stakeholders.',
+        detailedDescription: 'Desarrollé e implementé una estrategia de análisis de marketing integral que incluyó investigación de mercado para nuevos destinos, A/B testing para optimización de conversiones, y análisis de ROI para todas las campañas de marketing. Utilicé herramientas avanzadas de análisis de datos para generar insights accionables y mejorar la alineación de stakeholders.',
+        achievements: [
+          'A/B testing implementation for conversion optimization',
+          'ROI analysis for marketing campaigns',
+          'Market research for new destinations',
+          'Automated KPI dashboards'
+        ],
+        tools: ['Google Analytics', 'Data Studio', 'Power BI', 'Excel', 'A/B Testing', 'ROI Analysis'],
+        metrics: [
+          { label: 'Campaigns Analyzed', value: '25+' },
+          { label: 'A/B Tests Conducted', value: '12' },
+          { label: 'Destinations Researched', value: '8' },
+          { label: 'Dashboards Created', value: '6' }
+        ],
+        challenges: [
+          'Complex data analysis from multiple sources',
+          'Optimization of digital marketing campaigns',
+          'Stakeholder alignment with data insights'
+        ],
+        solutions: [
+          'Implementation of advanced analytics tools',
+          'Automated reporting system with dashboards',
+          'Structured A/B testing process'
+        ]
       },
       catering: {
         title: 'Gestión de Eventos de Alta Gama',
         company: 'Pamu Catering',
         period: 'Ene 2022 – Dic 2024',
         description: 'Ejecuté eventos de catering de alta gama para 60+ asistentes, desarrollando modelos de precios y cuadrículas de tarifas, achieving 95% positive feedback.',
-        detailedDescription: 'As Founder and Project Manager, diseñé y ejecuté eventos de catering de alta gama para hasta 60 asistentes. Desarrollé modelos de precios sofisticados y cuadrículas de tarifas, implementé flujos de trabajo Kanban para optimizar operaciones, y creé 5 SOPs que redujeron significativamente los errores y cuellos de botella.'
+        detailedDescription: 'As Founder and Project Manager, diseñé y ejecuté eventos de catering de alta gama para hasta 60 asistentes. Desarrollé modelos de precios sofisticados y cuadrículas de tarifas, implementé flujos de trabajo Kanban para optimizar operaciones, y creé 5 SOPs que redujeron significativamente los errores y cuellos de botella.',
+        achievements: [
+          '95% positive feedback in events',
+          '35% reduction in bottlenecks',
+          '20% fewer process errors',
+          '5 SOPs developed and implemented'
+        ],
+        tools: ['Kanban', 'Trello', 'Asana', 'Pricing Models', 'Rate Grids', 'SOPs'],
+        metrics: [
+          { label: 'Events Managed', value: '50+' },
+          { label: 'Attendees per Event', value: 'Up to 60' },
+          { label: 'Positive Feedback', value: '95%' },
+          { label: 'SOPs Implemented', value: '5' }
+        ],
+        challenges: [
+          'Event management with multiple vendors',
+          'Real-time team coordination',
+          'Maintaining quality standards in luxury catering'
+        ],
+        solutions: [
+          'Implementation of visual Kanban workflows',
+          'Development of pricing models and rate grids',
+          'Digital checklists system for quality control'
+        ]
       },
       biohuertos: {
         title: 'Bio Huertos Comunitarios - Pacchanta',
         company: 'Pacchanta Biohuertos Initiative',
         period: 'Ene 2023 – Dic 2023',
         description: 'Diseñé e implementé bio huertos orgánicos; entrené a 5 familias en cultivo sostenible, aumentando la ingesta de productos frescos en un 60% y mejorando los ingresos familiares.',
-        detailedDescription: 'Lideré un proyecto comunitario integral en Pacchanta, Cusco, diseñando e implementando bio huertos orgánicos sostenibles. El proyecto incluyó el entrenamiento de 5 familias en técnicas de cultivo sostenible, la implementación de sistemas de riego eficientes, y la creación de un modelo de negocio local que mejoró significativamente los ingresos familiares y la seguridad alimentaria.'
+        detailedDescription: 'Lideré un proyecto comunitario integral en Pacchanta, Cusco, diseñando e implementando bio huertos orgánicos sostenibles. El proyecto incluyó el entrenamiento de 5 familias en técnicas de cultivo sostenible, la implementación de sistemas de riego eficientes, y la creación de un modelo de negocio local que mejoró significativamente los ingresos familiares y la seguridad alimentaria.',
+        achievements: [
+          '60% increase in fresh produce intake',
+          '5 families trained in sustainable cultivation',
+          'Improved household income',
+          'Long-term sustainability ensured'
+        ],
+        tools: ['Sustainable Cultivation', 'Community Training', 'Organic Farming', 'Project Planning'],
+        metrics: [
+          { label: 'Families Trained', value: '5' },
+          { label: 'Fresh Produce Increase', value: '60%' },
+          { label: 'Project Duration', value: '12 months' },
+          { label: 'Cultivated Area', value: '1,500 m²' }
+        ],
+        challenges: [
+          'Coordination with Pacchanta community leaders',
+          'Implementation of sustainable farming techniques',
+          'Ensuring improved household income'
+        ],
+        solutions: [
+          'Structured training program for families',
+          'Implementation of organic farming techniques',
+          'Monitoring and evaluation system for results'
+        ]
       },
       portfolio: {
         title: 'Portafolio Web Profesional - Desarrollo Frontend',
         company: 'Neil Endicott Portfolio',
         period: 'Nov 2024 – Presente',
         description: 'Desarrollé mi portafolio web personal utilizando Next.js, TypeScript y Tailwind CSS, implementando diseño responsivo y animaciones interactivas para mostrar mi experiencia profesional.',
-        detailedDescription: 'Como desarrollador frontend y project manager, diseñé y desarrollé completamente mi portafolio web profesional utilizando tecnologías modernas como Next.js, TypeScript y Tailwind CSS. El proyecto incluye diseño responsivo para todos los dispositivos, animaciones fluidas con Framer Motion, optimización de rendimiento y SEO, y una paleta de colores galáctica personalizada que refleja mi estilo profesional.'
+        detailedDescription: 'Como desarrollador frontend y project manager, diseñé y desarrollé completamente mi portafolio web profesional utilizando tecnologías modernas como Next.js, TypeScript y Tailwind CSS. El proyecto incluye diseño responsivo para todos los dispositivos, animaciones fluidas con Framer Motion, optimización de rendimiento y SEO, y una paleta de colores galáctica personalizada que refleja mi estilo profesional.',
+        achievements: [
+          'Responsive design for all devices',
+          'Fluid animations with Framer Motion',
+          'Performance and SEO optimization',
+          'Personalized galactic color palette'
+        ],
+        tools: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'React', 'Git'],
+        metrics: [
+          { label: 'Pages Developed', value: '4' },
+          { label: 'Components Created', value: '8+' },
+          { label: 'Development Time', value: '2 weeks' },
+          { label: 'Lighthouse Score', value: '95+' }
+        ],
+        challenges: [
+          'Showcasing both technical and creative skills',
+          'Ensuring optimal performance and accessibility',
+          'Maintaining a unique and professional style'
+        ],
+        solutions: [
+          'Use of modern frameworks and libraries',
+          'Performance and SEO best practices',
+          'Custom design and color palette'
+        ]
       }
     }
   }
