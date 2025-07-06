@@ -114,13 +114,86 @@ export const translations = {
       },
       about: {
         title: 'About Me',
-        subtitle: 'Resilient and passionate about constant learning, I enjoy hiking, sports, and video games. My professional journey as a Project & Operations Manager has allowed me to lead teams, optimize processes, and negotiate key agreements, applying agile methodologies and digital tools to achieve outstanding results. I am fascinated by the world of software, which is why I am specializing in software development. I am motivated by new challenges, exploring technologies, and collaborating to create innovative solutions. I believe that curiosity, perseverance, and adaptability are key to advancing in this field, and I strive every day to be a better professional and a better person.',
+        subtitle: 'Resilient and passionate about constant learning, I enjoy hiking, sports, and video games. My professional journey as a Project & Operations Manager has allowed me to lead digital, logistics, and marketing initiatives, managing budgets up to S/200K and cross-functional teams of 5+. Expert in Agile (Scrum, Kanban) & Waterfall, stakeholder engagement, scope definition, and risk mitigation. Delivered responsive web platforms, integrated payment gateway, and optimized logistics (-27% costs).',
         experience: 'Professional Experience',
         experienceSubtitle: 'My professional journey in project management and operations',
         education: 'Education & Certifications',
         educationSubtitle: 'My academic background and professional certifications',
-        skills: 'Technical Skills',
-        skillsSubtitle: 'Technologies, methodologies, and tools I use in my daily work'
+        skills: 'Skills & Expertise',
+        skillsSubtitle: 'Key skills and tools I use in my daily work',
+        location: 'Cusco, Peru',
+        experienceYears: '3+ years of experience',
+        downloadCV: 'Download CV (PDF)',
+        completed: 'Completed',
+        contact: {
+          email: 'neilpachatusan@gmail.com',
+          phone: '+51 940231417',
+          linkedin: 'www.linkedin.com/in/neil-endicott-90a0a51a2/',
+          languages: 'English (C1/C2) · Spanish (Native)'
+        },
+        experiences: [
+          {
+            company: 'Inca Explorers',
+            position: 'Project & Operations Manager',
+            period: 'Jul 2021 – Present',
+            location: 'Remote (Cusco, Peru)',
+            achievements: [
+              'Orchestrated the end-to-end redesign and launch of the responsive website, defining the WBS, managing bi-weekly sprints, reducing load time by 36%, and growing organic traffic by 17%.',
+              'Led logistics overhaul with process mapping and stakeholder workshops, achieving a 27% reduction in operational costs.',
+              'Leveraged marketing analytics (market research, A/B testing, ROI analysis) and data tools (Excel, Google Analytics, Data Studio, Power BI) to drive insights and stakeholder alignment.',
+              'Managed budgets and vendor contracts, maintaining cost variance within ±5%.',
+              'Established risk management framework: maintained KPI dashboards, delivered updates and stakeholder communications with steering committee presentations.',
+              'Mentored and coordinated cross-functional teams of developers, designers, and operations staff, fostering Agile best practices and continuous improvement.',
+              'Oversaw SLA compliance and service delivery metrics, ensuring customer satisfaction targets were met or exceeded.',
+              'Facilitated Agile ceremonies (planning, stand-ups, retrospectives) and maintained real-time Jira dashboards for 300+ sprint cycles.'
+            ]
+          },
+          {
+            company: 'Pamu Catering',
+            position: 'Founder & Junior Project Manager',
+            period: 'Jan 2022 – Dec 2024',
+            location: 'Cusco, Peru',
+            achievements: [
+              'Executed high-end catering events for 60+ attendees: developed pricing models and rate grids, achieving 95% positive feedback.',
+              'Deployed Kanban workflows and authored 5 SOPs in Trello and Asana, reducing bottlenecks by 35% and errors by 20%.'
+            ]
+          },
+          {
+            company: 'Pacchanta Biohuertos Initiative',
+            position: 'Community Project Lead',
+            period: 'Jan 2023 – Dec 2023',
+            location: 'Pacchanta, Peru',
+            achievements: [
+              'Designed and implemented organic bio-gardens; trained 5 families in sustainable cultivation, increasing fresh produce intake by 60% and boosting household income.'
+            ]
+          }
+        ],
+        educationList: [
+          {
+            degree: 'B.Sc. in Software Engineering (In Progress)',
+            institution: 'Instituto ISIL, Peru',
+            period: '2024 – Present',
+            status: 'In progress'
+          },
+          {
+            degree: 'Google Project Management Certificate',
+            institution: 'Google',
+            period: 'Dec 2024 – Feb 2025',
+            status: 'Completed'
+          },
+          {
+            degree: 'Cisco IT Essentials',
+            institution: 'Cisco Networking Academy',
+            period: 'Jul 2024 – Dec 2024',
+            status: 'Completed'
+          },
+          {
+            degree: 'Google Agile & Scrum Foundations',
+            institution: 'Google',
+            period: 'Jan 2025 – Apr 2025',
+            status: 'Completed'
+          }
+        ]
       }
     },
 
@@ -282,13 +355,86 @@ export const translations = {
       },
       about: {
         title: 'Sobre Mí',
-        subtitle: 'Soy una persona resiliente y apasionada por el aprendizaje constante. Disfruto de las caminatas, el deporte y los videojuegos, y siempre busco aprender de cada experiencia para crecer y mejorar. Mi trayectoria profesional como Project & Operations Manager me ha permitido liderar equipos, optimizar procesos y negociar acuerdos clave, aplicando metodologías ágiles y herramientas digitales para lograr resultados sobresalientes. El mundo del software me fascina, por eso he decidido especializarme en desarrollo de software. Me motiva enfrentar nuevos retos, explorar tecnologías y colaborar con otros para crear soluciones innovadoras. Creo firmemente que la curiosidad, la perseverancia y la capacidad de adaptación son claves para avanzar en este campo, y me esfuerzo cada día por ser mejor profesional y mejor persona.',
+        subtitle: 'Resiliente y apasionado por el aprendizaje constante, disfruto de las caminatas, el deporte y los videojuegos. Mi trayectoria profesional como Project & Operations Manager me ha permitido liderar iniciativas digitales, logísticas y de marketing, gestionar presupuestos de hasta S/200K y equipos multidisciplinarios de 5+. Experto en Agile (Scrum, Kanban) y Waterfall, gestión de stakeholders, definición de alcance y mitigación de riesgos. He entregado plataformas web responsivas, integrado pasarelas de pago y optimizado logística (-27% costos).',
         experience: 'Experiencia Profesional',
         experienceSubtitle: 'Mi camino profesional en gestión de proyectos y operaciones',
         education: 'Educación & Certificaciones',
         educationSubtitle: 'Mi formación académica y certificaciones profesionales',
-        skills: 'Habilidades Técnicas',
-        skillsSubtitle: 'Tecnologías, metodologías y herramientas que utilizo en mi trabajo diario'
+        skills: 'Habilidades y Experiencia',
+        skillsSubtitle: 'Principales habilidades y herramientas que utilizo en mi trabajo diario',
+        location: 'Cusco, Perú',
+        experienceYears: '3+ años de experiencia',
+        downloadCV: 'Descargar CV (PDF)',
+        completed: 'Completado',
+        contact: {
+          email: 'neilpachatusan@gmail.com',
+          phone: '+51 940231417',
+          linkedin: 'www.linkedin.com/in/neil-endicott-90a0a51a2/',
+          languages: 'Inglés (C1/C2) · Español (Nativo)'
+        },
+        experiences: [
+          {
+            company: 'Inca Explorers',
+            position: 'Project & Operations Manager',
+            period: 'Jul 2021 – Presente',
+            location: 'Remoto (Cusco, Perú)',
+            achievements: [
+              'Orquesté el rediseño y lanzamiento integral del website responsivo, definiendo el WBS, gestionando sprints quincenales, reduciendo el tiempo de carga en 36% y aumentando el tráfico orgánico en 17%.',
+              'Lideré la reestructuración logística con mapeo de procesos y talleres de stakeholders, logrando una reducción del 27% en costos operativos.',
+              'Aproveché analítica de marketing (investigación de mercado, A/B testing, análisis de ROI) y herramientas de datos (Excel, Google Analytics, Data Studio, Power BI) para generar insights y alinear stakeholders.',
+              'Gestioné presupuestos y contratos con proveedores, manteniendo la variación de costos dentro de ±5%.',
+              'Establecí un marco de gestión de riesgos: mantuve dashboards de KPIs, entregué reportes y presentaciones a comité directivo.',
+              'Mentoricé y coordiné equipos multidisciplinarios de desarrolladores, diseñadores y operaciones, fomentando buenas prácticas Agile y mejora continua.',
+              'Supervisé el cumplimiento de SLAs y métricas de servicio, asegurando el logro o superación de objetivos de satisfacción del cliente.',
+              'Facilité ceremonias Agile (planning, stand-ups, retrospectivas) y mantuve dashboards en tiempo real en Jira para 300+ ciclos de sprint.'
+            ]
+          },
+          {
+            company: 'Pamu Catering',
+            position: 'Founder & Junior Project Manager',
+            period: 'Ene 2022 – Dic 2024',
+            location: 'Cusco, Perú',
+            achievements: [
+              'Ejecuté eventos de catering de alta gama para 60+ asistentes: desarrollé modelos de precios y cuadrículas tarifarias, logrando 95% de feedback positivo.',
+              'Implementé flujos Kanban y redacté 5 SOPs en Trello y Asana, reduciendo cuellos de botella en 35% y errores en 20%.'
+            ]
+          },
+          {
+            company: 'Pacchanta Biohuertos Initiative',
+            position: 'Líder de Proyecto Comunitario',
+            period: 'Ene 2023 – Dic 2023',
+            location: 'Pacchanta, Perú',
+            achievements: [
+              'Diseñé e implementé biohuertos orgánicos; entrené a 5 familias en cultivo sostenible, aumentando la ingesta de productos frescos en 60% y mejorando los ingresos familiares.'
+            ]
+          }
+        ],
+        educationList: [
+          {
+            degree: 'B.Sc. en Ingeniería de Software (En curso)',
+            institution: 'Instituto ISIL, Perú',
+            period: '2024 – Presente',
+            status: 'En progreso'
+          },
+          {
+            degree: 'Google Project Management Certificate',
+            institution: 'Google',
+            period: 'Dic 2024 – Feb 2025',
+            status: 'Completado'
+          },
+          {
+            degree: 'Cisco IT Essentials',
+            institution: 'Cisco Networking Academy',
+            period: 'Jul 2024 – Dec 2024',
+            status: 'Completado'
+          },
+          {
+            degree: 'Google Agile & Scrum Foundations',
+            institution: 'Google',
+            period: 'Ene 2025 – Abr 2025',
+            status: 'Completado'
+          }
+        ]
       }
     },
 
@@ -319,8 +465,8 @@ export const translations = {
         title: 'Gestión de Eventos de Alta Gama',
         company: 'Pamu Catering',
         period: 'Ene 2022 – Dic 2024',
-        description: 'Ejecuté eventos de catering de alta gama para 60+ asistentes, desarrollando modelos de precios y cuadrículas de tarifas, logrando un feedback positivo del 95%.',
-        detailedDescription: 'Como Founder y Project Manager, diseñé y ejecuté eventos de catering de alta gama para hasta 60 asistentes. Desarrollé modelos de precios sofisticados y cuadrículas de tarifas, implementé flujos de trabajo Kanban para optimizar operaciones, y creé 5 SOPs que redujeron significativamente los errores y cuellos de botella.'
+        description: 'Ejecuté eventos de catering de alta gama para 60+ asistentes, desarrollando modelos de precios y cuadrículas de tarifas, achieving 95% positive feedback.',
+        detailedDescription: 'As Founder and Project Manager, diseñé y ejecuté eventos de catering de alta gama para hasta 60 asistentes. Desarrollé modelos de precios sofisticados y cuadrículas de tarifas, implementé flujos de trabajo Kanban para optimizar operaciones, y creé 5 SOPs que redujeron significativamente los errores y cuellos de botella.'
       },
       biohuertos: {
         title: 'Bio Huertos Comunitarios - Pacchanta',

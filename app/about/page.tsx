@@ -9,56 +9,9 @@ import { getTranslation } from '@/lib/i18n'
 
 export default function AboutPage() {
   const { language } = useLanguage()
-  const experiences = [
-    {
-      company: 'Inca Explorers',
-      position: 'Project & Operations Manager',
-      period: 'Jul 2021 – Presente',
-      location: 'Perú',
-      achievements: [
-        'Lideré la planificación de sprints Agile y el grooming del backlog para 300+ itinerarios de lujo, logrando una tasa de entrega a tiempo del 98%.',
-        'Implementé SOPs y flujos de trabajo digitales reduciendo errores de documentación en 40% y cortando costos operativos en 27%.',
-        'Negocié 1,000+ contratos con proveedores para asegurar tarifas competitivas, impulsando un incremento del 15% en acuerdos B2B internacionales.'
-      ]
-    },
-    {
-      company: 'Pamu Catering',
-      position: 'Event Operations Manager',
-      period: 'Ene 2022 – Dic 2024',
-      location: 'Perú',
-      achievements: [
-        'Planifiqué eventos de alta gama para hasta 60 participantes con 95% de feedback positivo.',
-        'Desarrollé flujos de trabajo Kanban y 5 SOPs, reduciendo cuellos de botella en procesos en 35% y errores en 20%.'
-      ]
-    }
-  ]
+  const experiences = getTranslation(language, 'about.experiences')
 
-  const education = [
-    {
-      degree: 'B.Sc. en Desarrollo de Software',
-      institution: 'Instituto ISIL, Perú',
-      period: '2024 – Presente',
-      status: 'En progreso'
-    },
-    {
-      degree: 'Google Project Management Certificate',
-      institution: 'Google',
-      period: 'Dic 2024 – Feb 2025',
-      status: 'En progreso'
-    },
-    {
-      degree: 'Cisco IT Essentials',
-      institution: 'Cisco',
-      period: 'Jul 2024 – Dec 2024',
-      status: 'Completado'
-    },
-    {
-      degree: 'Google Agile Certificate',
-      institution: 'Google',
-      period: 'May 2024 – Presente',
-      status: 'En progreso'
-    }
-  ]
+  const education = getTranslation(language, 'about.educationList')
 
   const skills = language === 'es'
     ? [
@@ -159,19 +112,17 @@ export default function AboutPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-5 w-5 text-primary-600" />
-                    <span className="text-secondary-600 dark:text-secondary-400">Perú</span>
+                    <span className="text-secondary-600 dark:text-secondary-400">{getTranslation(language, 'about.location')}</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Calendar className="h-5 w-5 text-primary-600" />
-                    <span className="text-secondary-600 dark:text-secondary-400">3+ años de experiencia</span>
+                    <span className="text-secondary-600 dark:text-secondary-400">{getTranslation(language, 'about.experienceYears')}</span>
                   </div>
                 </div>
                 
                 <div className="bg-secondary-50 dark:bg-secondary-800 p-4 rounded-lg">
                   <p className="text-secondary-700 dark:text-secondary-300 leading-relaxed">
-                    Soy una persona resiliente y apasionada por el aprendizaje constante. Disfruto de las caminatas, el deporte y los videojuegos, y siempre busco aprender de cada experiencia para crecer y mejorar. Mi trayectoria profesional como Project & Operations Manager me ha permitido liderar equipos, optimizar procesos y negociar acuerdos clave, aplicando metodologías ágiles y herramientas digitales para lograr resultados sobresalientes.
-                    <br /><br />
-                    El mundo del software me fascina, por eso he decidido especializarme en desarrollo de software. Me motiva enfrentar nuevos retos, explorar tecnologías y colaborar con otros para crear soluciones innovadoras. Creo firmemente que la curiosidad, la perseverancia y la capacidad de adaptación son claves para avanzar en este campo, y me esfuerzo cada día por ser mejor profesional y mejor persona.
+                    {getTranslation(language, 'about.subtitle')}
                   </p>
                   
                   {/* Download CV Button */}
@@ -182,7 +133,7 @@ export default function AboutPage() {
                       className="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-200"
                     >
                       <Download className="h-4 w-4 mr-2" />
-                      Descargar CV (PDF)
+                      {getTranslation(language, 'about.downloadCV')}
                     </a>
                   </div>
                 </div>
@@ -243,7 +194,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <ul className="space-y-2">
-                  {exp.achievements.map((achievement, achievementIndex) => (
+                  {exp.achievements.map((achievement: string, achievementIndex: number) => (
                     <li key={achievementIndex} className="flex items-start space-x-3">
                       <Target className="h-5 w-5 text-primary-600 mt-0.5 flex-shrink-0" />
                       <span className="text-secondary-700 dark:text-secondary-300">{achievement}</span>
@@ -302,7 +253,7 @@ export default function AboutPage() {
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-secondary-500 dark:text-secondary-500">{edu.period}</span>
                       <span className={`text-sm px-2 py-1 rounded-full ${
-                        edu.status === 'Completado' 
+                        edu.status === getTranslation(language, 'about.completed') 
                           ? 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200'
                           : 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200'
                       }`}>
