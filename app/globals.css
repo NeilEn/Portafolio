@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white dark:bg-secondary-900 text-secondary-900 dark:text-white;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary-600 to-cosmic-600 hover:from-primary-700 hover:to-cosmic-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl animate-glow;
+  }
+  
+  .btn-secondary {
+    @apply bg-white hover:bg-secondary-50 dark:bg-secondary-800 dark:hover:bg-secondary-700 text-secondary-900 dark:text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 border-2 border-primary-200 dark:border-primary-700;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-secondary-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-secondary-200 dark:border-secondary-700 hover:animate-glow;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-500 via-cosmic-500 to-galaxy-600 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/20 dark:bg-secondary-900/20 border border-white/30 dark:border-secondary-700/30;
+  }
+
+  .cosmic-glow {
+    @apply shadow-lg hover:shadow-2xl transition-all duration-300;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+  }
+
+  .cosmic-glow:hover {
+    box-shadow: 0 0 30px rgba(168, 85, 247, 0.6);
+  }
+
+  .game-container {
+    @apply fixed inset-0 z-50 bg-game-bg overflow-hidden;
+  }
+
+  .lego-car {
+    @apply relative w-16 h-8 bg-lego-red rounded-lg shadow-lg;
+  }
+
+  .lego-wheel {
+    @apply absolute w-4 h-4 bg-secondary-800 rounded-full border-2 border-secondary-600;
+  }
+
+  .collectible {
+    @apply absolute w-8 h-8 rounded-lg flex items-center justify-center text-white font-bold shadow-lg z-10;
+  }
+
+  .interactive-button {
+    @apply relative overflow-hidden transition-all duration-300 hover:scale-105;
+  }
+
+  .text-high-contrast {
+    @apply text-secondary-900 dark:text-white font-medium;
+  }
+
+  .text-medium-contrast {
+    @apply text-secondary-700 dark:text-secondary-300;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} 
