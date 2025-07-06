@@ -121,12 +121,16 @@ export default function AboutPage() {
                 </div>
                 
                 <div className="bg-secondary-50 dark:bg-secondary-800 p-4 rounded-lg">
-                  <p className="text-secondary-700 dark:text-secondary-300 leading-relaxed">
-                    {getTranslation(language, 'contact.about.subtitle')}
-                  </p>
-                  
                   {/* Download CV Button */}
-                  <div className="mt-4">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-lg font-semibold text-secondary-900 dark:text-white mb-2">
+                        {getTranslation(language, 'contact.about.contact.email')}
+                      </h3>
+                      <p className="text-secondary-600 dark:text-secondary-400">
+                        {getTranslation(language, 'contact.about.contact.phone')}
+                      </p>
+                    </div>
                     <a
                       href="/api/cv"
                       download="Neil-Endicott-CV.pdf"
