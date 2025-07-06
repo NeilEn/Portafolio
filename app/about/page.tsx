@@ -60,13 +60,51 @@ export default function AboutPage() {
     }
   ]
 
-  const skills = {
-    'Gestión de Proyectos': ['Agile (Scrum, Kanban)', 'Waterfall', 'Gestión de Riesgos', 'Control de Alcance', 'Presupuestos', 'Gestión de Stakeholders'],
-    'Herramientas Digitales': ['Jira', 'Trello', 'Asana', 'Monday.com', 'Notion', 'Google Sheets', 'MS Project', 'Slack'],
-    'Flujos de Trabajo': ['SOPs', 'Dashboards', 'Status Reporting', 'Análisis de Varianza'],
-    'Comunicación': ['Gestión de Stakeholders', 'Negociación con Proveedores', 'Revisión de Contratos'],
-    'Idiomas': ['Inglés (C1/C2)', 'Español (Nativo)']
-  }
+  const skills = language === 'es'
+    ? [
+        {
+          title: getTranslation(language, 'skills.projectManagement.title'),
+          skills: getTranslation(language, 'skills.projectManagement.skills')
+        },
+        {
+          title: getTranslation(language, 'skills.digitalTools.title'),
+          skills: getTranslation(language, 'skills.digitalTools.skills')
+        },
+        {
+          title: 'Flujos de Trabajo',
+          skills: ['SOPs', 'Dashboards', 'Status Reporting', 'Análisis de Varianza']
+        },
+        {
+          title: getTranslation(language, 'skills.communication.title'),
+          skills: getTranslation(language, 'skills.communication.skills')
+        },
+        {
+          title: 'Idiomas',
+          skills: ['Inglés (C1/C2)', 'Español (Nativo)']
+        }
+      ]
+    : [
+        {
+          title: getTranslation(language, 'skills.projectManagement.title'),
+          skills: getTranslation(language, 'skills.projectManagement.skills')
+        },
+        {
+          title: getTranslation(language, 'skills.digitalTools.title'),
+          skills: getTranslation(language, 'skills.digitalTools.skills')
+        },
+        {
+          title: 'Workflow',
+          skills: ['SOPs', 'Dashboards', 'Status Reporting', 'Variance Analysis']
+        },
+        {
+          title: getTranslation(language, 'skills.communication.title'),
+          skills: getTranslation(language, 'skills.communication.skills')
+        },
+        {
+          title: 'Languages',
+          skills: ['English (C1/C2)', 'Spanish (Native)']
+        }
+      ]
 
   return (
     <div className="min-h-screen pt-20">
@@ -105,7 +143,7 @@ export default function AboutPage() {
               <div className="flex flex-col items-center lg:items-start">
                 <div className="w-48 h-48 rounded-full overflow-hidden flex items-center justify-center mb-6 border-4 border-primary-400 shadow-lg">
                   <img
-                    src="/neil.jpg"
+                    src="/neil.jpeg"
                     alt="Neil Endicott"
                     className="object-cover w-full h-full"
                   />
@@ -289,7 +327,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-secondary-900 dark:text-white">
               {getTranslation(language, 'about.skills').split(' ').map((word: string, index: number) => 
                 index === 1 ? (
                   <span key={index} className="gradient-text"> {word} </span>
@@ -304,9 +342,9 @@ export default function AboutPage() {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {Object.entries(skills).map(([category, skillList], index) => (
+            {skills.map((category, index) => (
               <motion.div
-                key={category}
+                key={category.title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.1 }}
@@ -318,11 +356,11 @@ export default function AboutPage() {
                     <Users className="h-5 w-5 text-primary-600" />
                   </div>
                   <h3 className="text-xl font-semibold text-secondary-900 dark:text-white">
-                    {category}
+                    {category.title}
                   </h3>
                 </div>
                 <div className="space-y-2">
-                  {skillList.map((skill, skillIndex) => (
+                  {category.skills.map((skill: string, skillIndex: number) => (
                     <div key={skillIndex} className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-primary-500 rounded-full"></div>
                       <span className="text-secondary-700 dark:text-secondary-300">{skill}</span>
