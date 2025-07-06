@@ -203,6 +203,7 @@ export const translations = {
         title: 'Website Redesign and Launch',
         company: 'Inca Explorers',
         period: 'Jul 2021 – Present',
+        websiteUrl: 'https://incaexplorers.com',
         description: 'Orchestrated the complete redesign and launch of Inca Explorers responsive website, defining the WBS, managing bi-weekly sprints, and optimizing performance to improve user experience.',
         detailedDescription: 'As Project Manager, I led a cross-functional team of developers and designers to completely transform Inca Explorers digital presence. The project included complete website restructuring, implementation of Agile methodologies with bi-weekly sprints, and performance optimization to improve user experience and conversions.'
       },

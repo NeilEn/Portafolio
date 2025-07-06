@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { X, Calendar, Target, CheckCircle, Wrench, TrendingUp, Users } from 'lucide-react'
+import { X, Calendar, Target, CheckCircle, Wrench, TrendingUp, Users, ExternalLink } from 'lucide-react'
 
 interface Project {
   id: number
@@ -15,6 +15,7 @@ interface Project {
   metrics: Array<{ label: string; value: string }>
   challenges: string[]
   solutions: string[]
+  website?: string
 }
 
 interface ProjectModalProps {
@@ -71,9 +72,20 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
             <h3 className="text-2xl font-bold text-secondary-900 dark:text-white mb-4">
               {project.title}
             </h3>
-            <p className="text-secondary-600 dark:text-secondary-400 leading-relaxed">
+            <p className="text-secondary-600 dark:text-secondary-400 leading-relaxed mb-4">
               {project.description}
             </p>
+            {project.website && (
+              <a
+                href={project.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-colors duration-200"
+              >
+                <ExternalLink className="h-4 w-4 mr-2" />
+                Visitar Sitio Web
+              </a>
+            )}
           </div>
 
           {/* Metrics Grid */}
